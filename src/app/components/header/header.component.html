@@ -1,0 +1,23 @@
+<nav id="my-first">
+    <ul>
+      <li class="logotype">
+        <a href="#">
+          <img class="m-2" src="../../../assets/bigbasket.png" height="50" alt="BigBasket">
+        </a>
+      </li>
+      <li class="burger" (click)="toggleMenu()">
+        <i class="material-icons">{{ isMenuOpen ? "close" : "menu" }}</i>
+      </li>
+      <li class="menu" [class.is-open]="isMenuOpen">
+        <a [routerLink]="['/home']" routerLinkActive="router-link-active" class="menu-item">Home</a>
+        <a href="#" class="menu-item">About</a>
+        <a
+          [routerLink]="['/login']"
+          routerLinkActive="router-link-active"
+          class="menu-item"
+          >Sign in / Register</a
+        >
+        <a href="#" class="menu-item">Contact</a>
+      </li>
+    </ul>
+  </nav>

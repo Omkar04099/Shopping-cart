@@ -1,0 +1,42 @@
+.card-container{
+    display: flex ;
+    /* background-color: cyan; */
+    align-items: center;
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+}
+
+.card{
+    height: auto;
+    width: 266px !important;
+}
+
+.card:hover{
+    box-shadow: 0px 0px 9px 5px lightsteelblue;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+p{
+    margin-bottom: 0.3rem;
+}
+
+.card-body{
+    padding: 0 0 0px 14px;
+}
+
+.card-title{
+    border: 5px solid red;
+    border-bottom: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    padding: 5px;
+}
