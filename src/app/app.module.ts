@@ -25,7 +25,9 @@ import { SecurityComponent } from './components/security/security.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
